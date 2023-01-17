@@ -1,0 +1,163 @@
+.blue-container {
+    height: 80px;
+    background-color: #0057e3;
+}
+
+.content {
+    display: flex;
+    margin: 100px 400px;
+
+}
+
+article {
+    max-width: 95%;
+    font-size: 1.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+img {
+    width: 60%;
+}
+
+.adv {
+    width: 300px;
+    height: 300px;
+}
+
+h1 {
+    line-height: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.greenline-price {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(17, 172, 17);
+    display: flex;
+    align-items: center;
+    color: lightgreen;
+}
+
+.availability {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-weight: bold;
+    color: white;
+}
+
+.availability p{
+    margin: 10px;
+}
+
+
+
+.price {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-right: none;
+    height: 100%;
+    align-items: center;
+}
+
+.number-price {
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.showcomix{
+    position: relative;
+    width: 100%;
+    border: 2px solid white;
+    z-index: 1;
+}
+
+
+
+.current-series-2{
+    width: 14%;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    position:absolute;
+    bottom:-70px;
+    left: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    display: flex;
+
+}
+
+.title-showbook{
+    position: absolute;
+    top: 112px;
+    left: 313px;
+    background-color: #0057e3;
+    z-index: 1;
+    padding: 5PX;
+    color: white;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-weight: bold;
+}
+
+.gallery-showbook{
+    width: 240px;
+    position: absolute;
+    top: 450px;
+    left: 313px;
+    background-color: #0057e3;
+    z-index: 1;
+    padding: 5px;
+    color: white;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-weight: bold;
+     text-align: center;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(248, 240, 240, 0.761);
+    padding: 5px 100px 100px 100px;
+}
+
+.elem{
+    margin: 20px;
+}
+
+.elem h3{
+    display: inline;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.talent{
+    width: 50%;
+    margin: 50px;
+}
+span{
+   display: inline;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+.full-size{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.icons2{
+    width: 20%;
+    margin: 0px;
+    border: 1px solid lightgray;
+    display: flex;
+}
